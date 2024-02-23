@@ -1,0 +1,147 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Products",
+    "line": 1,
+    "id": "products",
+    "tags": [],
+    "uri": "products.feature",
+    "elements": [
+      {
+        "id": "products;[tcp-pro-001]-user-wants-to-see-all-items-of-product",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "[TCP-PRO-001] User wants to see all items of product",
+        "tags": [
+          {
+            "name": "@positive",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User has login as 'standard_user'",
+            "result": {
+              "status": "passed",
+              "duration": 1275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks All items menu on sidebar",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should sees all items of product",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "products;[tcp-pro-002]-user-wants-to-see-detail-product",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "[TCP-PRO-002] User wants to see detail product",
+        "tags": [
+          {
+            "name": "@positive",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User has login as 'standard_user'",
+            "result": {
+              "status": "passed",
+              "duration": 1355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User clicks name of product on products page",
+            "result": {
+              "status": "passed",
+              "duration": 291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should sees detail of product",
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "products;[tcp-pro-003]-user-sorts-list-of-product",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "[TCP-PRO-003] User sorts list of product",
+        "tags": [
+          {
+            "name": "@positive",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User has login as 'standard_user'",
+            "result": {
+              "status": "passed",
+              "duration": 1484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User selects Price low to high on option of sorting icon",
+            "result": {
+              "status": "passed",
+              "duration": 176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User should sees product has sorted by Price low to high",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
