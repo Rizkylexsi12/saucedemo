@@ -27,7 +27,7 @@
             "name": "User on Login Page",
             "result": {
               "status": "passed",
-              "duration": 107000000
+              "duration": 419000000
             }
           },
           {
@@ -54,7 +54,7 @@
             "name": "User inputs valid username and valid password",
             "result": {
               "status": "passed",
-              "duration": 566000000
+              "duration": 556000000
             }
           },
           {
@@ -64,7 +64,7 @@
             "name": "User clicks a Login button",
             "result": {
               "status": "passed",
-              "duration": 118000000
+              "duration": 503000000
             }
           },
           {
@@ -74,7 +74,7 @@
             "name": "User successfully Logs in",
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 27000000
             }
           },
           {
@@ -109,7 +109,7 @@
             "name": "User on Login Page",
             "result": {
               "status": "passed",
-              "duration": 88000000
+              "duration": 102000000
             }
           },
           {
@@ -136,7 +136,7 @@
             "name": "User inputs incorrect username and inputs password",
             "result": {
               "status": "passed",
-              "duration": 516000000
+              "duration": 520000000
             }
           },
           {
@@ -146,7 +146,7 @@
             "name": "User clicks a Login button",
             "result": {
               "status": "passed",
-              "duration": 87000000
+              "duration": 86000000
             }
           },
           {
@@ -156,7 +156,7 @@
             "name": "User should sees toast alert Login failed \"Username and password do not match any user in this service\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 6000000
             }
           }
         ]
@@ -181,7 +181,7 @@
             "name": "User on Login Page",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 113000000
             }
           },
           {
@@ -208,7 +208,7 @@
             "name": "User inputs valid username and inputs incorrect password",
             "result": {
               "status": "passed",
-              "duration": 494000000
+              "duration": 485000000
             }
           },
           {
@@ -218,7 +218,7 @@
             "name": "User clicks a Login button",
             "result": {
               "status": "passed",
-              "duration": 81000000
+              "duration": 83000000
             }
           },
           {
@@ -228,7 +228,7 @@
             "name": "User should sees toast alert Login failed \"Username and password do not match any user in this service\"",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 5000000
             }
           }
         ]
@@ -253,7 +253,7 @@
             "name": "User on Login Page",
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 111000000
             }
           },
           {
@@ -278,7 +278,7 @@
             "name": "User inputs password without input username",
             "result": {
               "status": "passed",
-              "duration": 198000000
+              "duration": 200000000
             }
           },
           {
@@ -323,7 +323,7 @@
             "name": "User on Login Page",
             "result": {
               "status": "passed",
-              "duration": 99000000
+              "duration": 116000000
             }
           },
           {
@@ -348,7 +348,7 @@
             "name": "User inputs valid username without input password",
             "result": {
               "status": "passed",
-              "duration": 277000000
+              "duration": 278000000
             }
           },
           {
@@ -358,7 +358,7 @@
             "name": "User clicks a Login button",
             "result": {
               "status": "passed",
-              "duration": 76000000
+              "duration": 79000000
             }
           },
           {
@@ -368,7 +368,7 @@
             "name": "User should sees toast alert Login failed \"Password is required\"",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 3000000
             }
           }
         ]
