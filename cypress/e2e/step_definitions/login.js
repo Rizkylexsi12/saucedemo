@@ -1,11 +1,12 @@
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
 import { loginPage } from "../element_pages/loginPage";
+import { homePage } from "../element_pages/homePage";
 
 const login_page = new loginPage;
-const baseurl = 'https://www.saucedemo.com/v1';
+const home_page = new homePage;
 
 Given('User on Login Page', () => {
-  cy.visit(baseurl, '/index.html')
+  cy.visit('/index.html')
 })
 
 //---------------------- When ---------------------------
@@ -52,12 +53,13 @@ And('User clicks a Login button', () => {
 })
 
 And('User is directed to products page', () => {
-  cy.url().should('include', baseurl + '/inventory.html')
+  cy.url().should('include', '/inventory.html')
 })
 
 //----------------------------------- Then -------------------------------
 Then(`User successfully Logs in`, () => {
   cy.get('.product_label').should('contain', 'Products')
+  cy.get(home_page.logo).should('be.visible')
 })
 
 Then('User should sees toast alert Login failed {string}', (message) => {
