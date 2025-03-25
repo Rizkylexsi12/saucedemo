@@ -279,7 +279,7 @@
             "name": "User has login as 'standard_user'",
             "result": {
               "status": "passed",
-              "duration": 4074000000
+              "duration": 2799000000
             }
           },
           {
@@ -289,7 +289,7 @@
             "name": "User has not add item to cart",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 5000000
             }
           },
           {
@@ -299,7 +299,7 @@
             "name": "User goes to cart page",
             "result": {
               "status": "passed",
-              "duration": 175000000
+              "duration": 345000000
             }
           },
           {

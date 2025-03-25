@@ -27,7 +27,7 @@
             "name": "User on Login Page",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 20106000000
             }
           },
           {
@@ -54,7 +54,7 @@
             "name": "User inputs valid username and valid password",
             "result": {
               "status": "passed",
-              "duration": 536000000
+              "duration": 636000000
             }
           },
           {
@@ -64,7 +64,7 @@
             "name": "User clicks a Login button",
             "result": {
               "status": "passed",
-              "duration": 89000000
+              "duration": 6779000000
             }
           },
           {
@@ -74,7 +74,7 @@
             "name": "User successfully Logs in",
             "result": {
               "status": "failed",
-              "duration": 4002000000,
+              "duration": 4268000000,
               "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<div.product_label>' to contain 'hoho'\n    at Context.eval (cypress/e2e/step_definitions/login.js:61:27)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
@@ -109,7 +109,7 @@
             "name": "User on Login Page",
             "result": {
               "status": "passed",
-              "duration": 155000000
+              "duration": 444000000
             }
           },
           {
@@ -136,7 +136,7 @@
             "name": "User inputs incorrect username and inputs password",
             "result": {
               "status": "passed",
-              "duration": 515000000
+              "duration": 511000000
             }
           },
           {
@@ -146,7 +146,7 @@
             "name": "User clicks a Login button",
             "result": {
               "status": "passed",
-              "duration": 86000000
+              "duration": 87000000
             }
           },
           {
@@ -156,7 +156,7 @@
             "name": "User should sees toast alert Login failed \"Username and password do not match any user in this service\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 3000000
             }
           }
         ]
@@ -181,7 +181,7 @@
             "name": "User on Login Page",
             "result": {
               "status": "passed",
-              "duration": 113000000
+              "duration": 98000000
             }
           },
           {
@@ -208,7 +208,7 @@
             "name": "User inputs valid username and inputs incorrect password",
             "result": {
               "status": "passed",
-              "duration": 485000000
+              "duration": 493000000
             }
           },
           {
@@ -218,7 +218,7 @@
             "name": "User clicks a Login button",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 78000000
             }
           },
           {
@@ -228,7 +228,7 @@
             "name": "User should sees toast alert Login failed \"Username and password do not match any user in this service\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 5000000
             }
           }
         ]
@@ -253,7 +253,7 @@
             "name": "User on Login Page",
             "result": {
               "status": "passed",
-              "duration": 111000000
+              "duration": 168000000
             }
           },
           {
@@ -278,7 +278,7 @@
             "name": "User inputs password without input username",
             "result": {
               "status": "passed",
-              "duration": 198000000
+              "duration": 202000000
             }
           },
           {
@@ -288,7 +288,7 @@
             "name": "User clicks a Login button",
             "result": {
               "status": "passed",
-              "duration": 77000000
+              "duration": 83000000
             }
           },
           {
@@ -298,7 +298,7 @@
             "name": "User should sees toast alert Login failed \"Username is required\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 7000000
             }
           }
         ]
@@ -323,7 +323,7 @@
             "name": "User on Login Page",
             "result": {
               "status": "passed",
-              "duration": 110000000
+              "duration": 256000000
             }
           },
           {
@@ -348,7 +348,7 @@
             "name": "User inputs valid username without input password",
             "result": {
               "status": "passed",
-              "duration": 276000000
+              "duration": 299000000
             }
           },
           {
@@ -358,7 +358,7 @@
             "name": "User clicks a Login button",
             "result": {
               "status": "passed",
-              "duration": 83000000
+              "duration": 84000000
             }
           },
           {
@@ -368,7 +368,7 @@
             "name": "User should sees toast alert Login failed \"Password is required\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 7000000
             }
           }
         ]
