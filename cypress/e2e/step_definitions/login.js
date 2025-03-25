@@ -58,7 +58,7 @@ And('User is directed to products page', () => {
 
 //----------------------------------- Then -------------------------------
 Then(`User successfully Logs in`, () => {
-  cy.get('.product_label').should('contain', 'Products')
+  cy.get('.product_label').should('contain', 'hoho')
   cy.get(home_page.logo).should('be.visible')
 })
 

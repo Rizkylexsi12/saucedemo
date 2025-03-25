@@ -30,6 +30,7 @@ Scenario: [TCP-CHO-002] User checks out item with > 1 products
     Then User successfully checkouts items
     And User should sees completed checkout page
 
+@focus
 @negative
 Scenario: [TCN-CHO-001] User checks out in cart page with none products in it
     And User has not add item to cart
